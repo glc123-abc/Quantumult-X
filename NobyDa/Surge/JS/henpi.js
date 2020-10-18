@@ -1,9 +1,4 @@
-MITM = api3.henpi.vip
-*/
-
-var body = $response.body;
-var url = $request.url; 
-var obj = JSON.parse(body);
+let obj = JSON.parse($response.body);
 
 const vip = '/app/subscribe/ranking'; 
 if (url.indexOf(vip) != -1) { 
