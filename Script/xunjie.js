@@ -14,9 +14,8 @@ hostname = *.xunjie*.com,
 
 let obj = JSON.parse($response.body);
 obj.userinfo.vip = [{
-      "id": 00000001,
+      "id": 10000000,
       "auth_type": 1,
-      "auth_value": 4102469002
-    }];
+      "auth_value": 148204992896}];
 
 $done({body: JSON.stringify(obj)});
